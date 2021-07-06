@@ -3,4 +3,4 @@ This project contains Navigation Component, rich Recycler Views, multiple NEWS A
 
 App Layout:
 
-![111](https://user-images.githubusercontent.com/77164635/124573341-e4b28c80-de62-11eb-88a7-4dce3d008015.png)
+![111](https://user-images.githubusercontent.com/77164635/124574441-e892de80-de63-11eb-9be2-e5e1d85cd036.png)
