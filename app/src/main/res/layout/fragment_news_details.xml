@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.newsActivityMainFragments.NewsDetailsFragment"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:background="@color/app_main_bg">
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/newsImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bb"/>
+
+            <TextView
+                android:id="@+id/newsSourceText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingLeft="@dimen/_5sdp"
+                android:paddingRight="@dimen/_5sdp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginBottom="15dp"
+                android:background="@color/sub_btn_color"
+                android:text="source"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/newsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is NEWS title"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textColor="@color/in_app_text_color"/>
+
+        <TextView
+            android:id="@+id/newsDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="date here"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/in_app_text_color"/>
+
+        <TextView
+            android:id="@+id/newsContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="serif"
+            android:text="This is NEWS content"
+            android:textColor="@color/in_app_text_color"
+            android:textSize="@dimen/_12sdp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom">
+
+            <Button
+                android:id="@+id/visitNewsSourceButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="Vist Source"
+                android:textColor="@color/white"
+                android:background="@drawable/sub_btn_bg"
+                android:textSize="@dimen/_12sdp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

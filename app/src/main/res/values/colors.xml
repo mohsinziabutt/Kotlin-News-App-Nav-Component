@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="app_main_bg">#FFFFFF</color>
+    <color name="ui_text_color">#6183FA</color>
+    <color name="in_app_text_color">#000</color>
+    <color name="login_panel_gradient_upper">#FF382BEE</color>
+    <color name="login_panel_gradient_lower">#FF2CAAFF</color>
+    <color name="edit_text_panel_color">#FFF</color>
+    <color name="sub_btn_color">#FF2CAAFF</color>
+
+    <color name="blue_light">#6183FA</color>
+    <color name="blue_medium">#FF6200EE</color>
+    <color name="blue_dark">#3802AF</color>
+    <color name="gray_light">#7E7E7E</color>
+    <color name="gray_medium">#616161</color>
+    <color name="gray_dark">#232222</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

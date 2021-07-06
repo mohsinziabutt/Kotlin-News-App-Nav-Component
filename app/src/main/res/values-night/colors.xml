@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    <color name="app_main_bg">#000</color>-->
+    <color name="app_main_bg">#252A41</color>
+    <color name="ui_text_color">#FFF</color>
+    <color name="in_app_text_color">#FFF</color>
+    <color name="login_panel_gradient_upper">#3E3D3D</color>
+    <color name="login_panel_gradient_lower">#3E3D3D</color>
+    <color name="edit_text_panel_color">#9BA0A3</color>
+    <color name="sub_btn_color">#BF0107</color>
+
+</resources>

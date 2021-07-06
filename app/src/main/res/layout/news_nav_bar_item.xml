@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/newsNavBarImage"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:src="@drawable/aa"
+        app:civ_border_color="@color/sub_btn_color"
+        app:civ_border_width="@dimen/_1sdp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="@dimen/_5sdp"
+        app:civ_shadow_color="@color/sub_btn_color"/>
+
+    <TextView
+        android:id="@+id/newsNavBarAuthorName"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content"
+        android:text="Author Name"
+        android:gravity="center"
+        android:textSize="@dimen/_10sdp"
+        android:textColor="@color/in_app_text_color"/>
+
+</LinearLayout>
