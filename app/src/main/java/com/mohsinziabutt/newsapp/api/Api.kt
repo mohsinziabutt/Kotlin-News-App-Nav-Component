@@ -34,7 +34,7 @@ interface Api
     fun getCommonNews(
     ):Call<NewsResponse>
 
-    @GET("everything?q=tesla&from=2021-06-05&sortBy=publishedAt&apiKey=f540f76d89334a86ad2c80b3a501982d")
+    @GET("top-headlines?sources=techcrunch&apiKey=f540f76d89334a86ad2c80b3a501982d")
     fun getNavBarNews(
     ):Call<NewsResponse>
 }
